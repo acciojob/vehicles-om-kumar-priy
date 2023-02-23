@@ -31,16 +31,16 @@ public class F1 extends Car {
             if (newSpeed<51)
                 super.changeGear(1);
 
-            if (newSpeed<101)
+           else if (newSpeed<101)
                 super.changeGear(2);
 
-            if (newSpeed<151)
+            else if (newSpeed<151)
                 super.changeGear(3);
 
-            if (newSpeed<201)
+            else if (newSpeed<201)
                 super.changeGear(4);
 
-            if (newSpeed<251)
+            else if (newSpeed<251)
                 super.changeGear(5);
             else   super.changeGear(6);
             changeSpeed(newSpeed, getCurrentDirection());
