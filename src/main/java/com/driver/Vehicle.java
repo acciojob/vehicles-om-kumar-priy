@@ -33,7 +33,7 @@ public class Vehicle {
     }
 
     public void setCurrentDirection(int currentDirection) {
-        this.currentDirection = currentDirection;
+        this.currentDirection +=currentDirection;
     }
 
     public void steer(int direction){
